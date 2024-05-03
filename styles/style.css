@@ -1,0 +1,124 @@
+/*Gaya untuk seluruh halaman web*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /*Gaya untuk logo pada header*/
+    .logo {
+    float: left;
+    margin-left: 10px;
+    }
+    .logo img {
+    width: 50px;
+    }
+    
+    /*Gaya untuk tulisan nama toko*/
+    .store-name {
+    float: right;
+    font-size: small;
+    margin-right: 730px;
+    }
+    
+    /*Gaya untuk elemen header*/
+    header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }  
+    
+    /*Gaya untuk elemen navigasi*/
+    nav {
+    display: flex;
+    justify-content: center;
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 20px;
+    }
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }  
+    
+    /*Gaya untuk elemen utama*/
+    main {
+    padding: 20px;
+    }
+    
+    /*Gaya untuk menu home*/
+    .home-content {
+    display: flex;
+    align-items: flex-start; /* Menempatkan konten di sebelah kiri */
+    }
+    .home-content img {
+    width: 300px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    margin-right: 20px;
+    }
+    .home-content p {
+    flex: 1; /* Memiliki sisa ruang untuk mengikuti gambar */
+    margin-bottom: 10px;
+    font-size: 20px;
+    } 
+    
+    /*Gaya untuk menu produk*/
+    .product {
+    margin-bottom: 20px;
+    }
+    .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    }
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    }
+    .product img {
+    width: 100%;
+    height: auto;
+    }  
+    
+    /*Gaya untuk menu order*/
+    #orderForm {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .form-group {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    }
+    .form-group label {
+    display: inline-block;
+    width: 150px;
+    }
+    .form-group input {
+    width: 50%;
+    }
+    button[type="submit"] {
+    width: auto; /* Menggunakan lebar otomatis */
+    margin-left: 0; /* Menghapus margin kiri */
+    }
+    
+    /*Gaya untuk footer*/
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
